@@ -1,52 +1,46 @@
 @media screen and (max-width: 1005px) {
-    .navbar{
+    .navbar {
         position: relative;
     }
 
-    .menu{
+    .menu {
         display: none;
     }
 
-    .logo{
+    .logo {
         margin: 0;
         text-align: center;
     }
 
-    .header{
-        padding-top:40px ;
+    .header {
+        padding-top: 40px;
     }
 
-    .headline{
+    .headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
 
-    .headline p{
+    .headline p {
         text-align: center;
     }
 
-    .img_headline{
+    .img_headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
 
-    .card{
+    .card {
         width: 100%;
     }
 
-
-
-    .whats{
-        display: none;
-    }
-
-    footer{
+    footer {
         margin-top: 100px;
         /* height: 500px; */
         background-image: linear-gradient(180deg, #180F4A, #090422, black);
         text-align: center;
-        border-top:5px solid #FF2978;
+        border-top: 5px solid #FF2978;
     }
 }
