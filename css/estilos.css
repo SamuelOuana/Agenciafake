@@ -174,6 +174,8 @@ section h2 {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
     /* height: 500px; */
     background-image: linear-gradient(180deg, #180F4A, #090422, black);
@@ -191,8 +193,18 @@ footer {
     font-size: 34px;
 }
 
+b {
+    padding: 10px;
+}
+
+.liks {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
 .whats {
-    position: fixed;
+    /* position: fixed; */
     bottom: 5px;
     right: 5px;
+    padding: 10px;
 }
